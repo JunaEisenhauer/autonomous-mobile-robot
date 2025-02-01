@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="je_171731_prj" type="start_robot_navigation.py" name="robot_navigation" output="screen">
+  </node>
+</launch>

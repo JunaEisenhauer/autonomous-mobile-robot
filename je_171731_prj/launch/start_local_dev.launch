@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find goal_publisher)/launch/goal_publisher.launch">
+    <arg name="config_file" value="/home/eisenhauer/workspace/catkin_ws/src/je-171731_tier4/final_project_practice/practice_goals.yaml" />
+  </include>
+  <node pkg="je_171731_prj" type="start_robot_navigation.py" name="robot_navigation" output="screen">
+  </node>
+</launch>

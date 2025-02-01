@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="je_171731_prj" type="manual_control.py" name="manual_robot_control" output="screen">
+  </node>
+</launch>
